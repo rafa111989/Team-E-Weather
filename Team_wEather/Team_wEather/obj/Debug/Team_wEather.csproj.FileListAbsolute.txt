@@ -1,1 +1,2 @@
 C:\Users\rafa1\Desktop\C#.NET 2\projects\Team_wEather\Team_wEather\bin\Debug\Team_wEather.exe.config
+C:\Users\rafa1\Desktop\Team-E-Weather\Team_wEather\Team_wEather\bin\Debug\Team_wEather.exe.config
