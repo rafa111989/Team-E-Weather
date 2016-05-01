@@ -1,2 +1,10 @@
 C:\Users\rafa1\Desktop\C#.NET 2\projects\Team_wEather\Team_wEather\bin\Debug\Team_wEather.exe.config
 C:\Users\rafa1\Desktop\Team-E-Weather\Team_wEather\Team_wEather\bin\Debug\Team_wEather.exe.config
+C:\Users\rafa1\Desktop\Team-E-Weather\Team_wEather\Team_wEather\bin\Debug\Team_wEather.exe
+C:\Users\rafa1\Desktop\Team-E-Weather\Team_wEather\Team_wEather\bin\Debug\Team_wEather.pdb
+C:\Users\rafa1\Desktop\Team-E-Weather\Team_wEather\Team_wEather\obj\Debug\Team_wEather.csprojResolveAssemblyReference.cache
+C:\Users\rafa1\Desktop\Team-E-Weather\Team_wEather\Team_wEather\obj\Debug\Team_wEather.main.resources
+C:\Users\rafa1\Desktop\Team-E-Weather\Team_wEather\Team_wEather\obj\Debug\Team_wEather.Properties.Resources.resources
+C:\Users\rafa1\Desktop\Team-E-Weather\Team_wEather\Team_wEather\obj\Debug\Team_wEather.csproj.GenerateResource.Cache
+C:\Users\rafa1\Desktop\Team-E-Weather\Team_wEather\Team_wEather\obj\Debug\Team_wEather.exe
+C:\Users\rafa1\Desktop\Team-E-Weather\Team_wEather\Team_wEather\obj\Debug\Team_wEather.pdb
