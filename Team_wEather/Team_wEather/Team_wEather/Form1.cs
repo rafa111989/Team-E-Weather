@@ -23,7 +23,7 @@ namespace Team_wEather
         {
 
 
-            string weburl = "http://api.openweathermap.org/data/2.5/weather?q=" + txtBx_Zip.Text + ",us" + "&mode=xml" + "&appid=0122e9b39c4cbdb091984948bd3e4673";
+            string weburl = "http://api.openweathermap.org/data/2.5/weather?q=" + comboBox1.Text + ",us" + "&mode=xml" + "&appid=0122e9b39c4cbdb091984948bd3e4673";
 
 
             var xml = await new WebClient().DownloadStringTaskAsync(new Uri(weburl));
@@ -32,12 +32,15 @@ namespace Team_wEather
             doc.LoadXml(xml);
             string szTemp = doc.DocumentElement.SelectSingleNode("temperature").Attributes["value"].Value;
             double temp = double.Parse(szTemp) - 273.16;
-            lblTemp_output.Text = temp + (" Celcius");
+            temp = (int)temp;
+            lblTemp_output.Text = temp.ToString() + " " + string.Format("\u00B0") + (" Celcius");//converts output to string temp format
 
             double fahrenheit = (temp * (9/5)) + 32;
-            lbl_tempFaren_Output.Text = fahrenheit + ("Fahrenheit");
+            lbl_tempFaren_Output.Text = fahrenheit.ToString() + " " + string.Format("\u00B0") + (" Fahrenheit");//converts output to string temp format
             // F = C * 5 / 9 + 32
         }
+
+      
 
        
     }
